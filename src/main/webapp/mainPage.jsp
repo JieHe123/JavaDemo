@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>主界面</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         #head_ {
             height: 100px;
@@ -75,7 +76,9 @@
 
 </head>
 <body>
-
+<h1 class="text-3xl font-bold">
+    Hello world!
+</h1>
 <div id="head_">
     <div id="personFile">
         名字:<span style="color: red">${user.getU_name()}</span><br>
