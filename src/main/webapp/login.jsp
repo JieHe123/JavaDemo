@@ -64,7 +64,7 @@
             document.getElementById("error").innerHTML = "The password can't be empty!"
             return;
         }
-        window.location.href = "login?html__u_id=" + id_str + "&html_u_pwd=" + psd_str;
+        window.location.href = "login?html_u_id=" + id_str + "&html_u_pwd=" + psd_str;
 
     }
 
